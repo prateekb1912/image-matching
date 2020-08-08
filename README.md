@@ -25,3 +25,6 @@ The following matching algorithms can be used:
 ## Example - 2: Matching a painting from many
 
 <img src = 'matched.png' height=640 width=640>
+
+
+**NOTE: I've also added a PDF file on finding homography in images **
