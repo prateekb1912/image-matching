@@ -27,4 +27,4 @@ The following matching algorithms can be used:
 <img src = 'matched.png' height=640 width=640>
 
 
-**NOTE: I've also added a PDF file on finding homography in images **
+**NOTE: I've also added a PDF file on finding homography in images**
