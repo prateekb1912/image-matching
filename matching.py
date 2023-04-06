@@ -6,6 +6,7 @@ from brute_force import BruteForce
 from bf_knn import BruteForceKNN
 from flann import FLANN
 from homography import Homography
+from ransac import RANSAC
 import argparse
 
 #Constructing the argument parser and parsing the arguments
@@ -32,6 +33,8 @@ elif match_type == 'F':
     img_matches = FLANN(img1, img2)
 elif match_type == 'H':
     img_matches = Homography(img1, img2)
+elif match_type == 'R':
+    img_matches = RANSAC(img1, img2)
 
 #Displaying the results and storing them
 plt.imshow(img_matches)

@@ -17,6 +17,7 @@ The following matching algorithms can be used:
 - Brute-Force-KNN (K)
 - FLANN (F)
 - Homography with FLANN (H)
+- RanSaC (R)
 
 ## Example - 1 : Finding a Tattoo
 
